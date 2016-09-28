@@ -11,14 +11,32 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link rel="icon" href="icon.png" >
     <title>我的汕大郁金香</title>
+    <script>
+        function show(){
+            var date = new Date(); //日期对象
+            var now = "当前时间是 ";
+            now = now + date.getFullYear()+"年"; //读英文就行了
+            now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+            now = now + date.getDate()+"日";
+            now = now + date.getHours()+"时";
+            now = now + date.getMinutes()+"分";
+            now = now + date.getSeconds()+"秒";
+            document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串
+            setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+        }
+    </script>
 </head>
 
-<body>
+<body onload="show()">
+
 <h2><span align="center">我的汕大郁金香</span></h2>
+<div id="nowDiv"></div>
+<!--
 <?php
 date_default_timezone_set("Asia/Shanghai");
 echo "当前时间是 " . date("Y-m-d h:i:s");
 ?>
+-->
 <p style="color:red;"><strong>汕头大学</strong></p>
 <a href="http://www.stu.edu.cn/" target="_blank">汕头大学</a>
 <a href="http://phoenix.stu.edu.cn/bt/default.aspx" target="_blank">金凤BT</a>
