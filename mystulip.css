@@ -1,0 +1,63 @@
+
+body{
+	background-color:#F5FFFA;
+}
+h1{
+	text-align:center;
+}
+/*a:link {color:#0000CD;}      /* δ��������*/
+/*a:visited {color:#blue;}  /* �ѷ������� */
+/*a:hover {color:red;}  /* �����ƶ��������� */
+/*a:active {color:#0000CD;}  /* ��������ʱ */
+a.a1:link { color:#0000CD;}
+a.a1:visted {color:green;}
+a.a1:hover {color:red;}
+a.a1:cctive {color:#0000CD; }
+p.subtitle{
+	position:relative;
+	left:25%;
+	color:red;
+}
+
+#stu,#learn,#tools{
+	position:relative;
+	left:25%;
+	a:link {color:	#40E0D0;}
+	a:hover {color:green;}
+	font-family:Sans-serif;
+	color:green;
+	border-style:dotted;
+	border-width:thin;
+	padding:20px;
+	width:50%;
+}
+#baidu{
+	position: relative;
+	left: 25%;
+}
+
+/*
+#learn{
+	a:link {color:	#40E0D0;}
+	a:hover {color:green;}
+	font-family:Sans-serif;
+	color:green;
+	border-style:dotted;
+	border-width:thin;
+	padding:20px;
+	width:50%;
+
+}
+
+#tools{
+	a:link {color:	#40E0D0;}
+	a:hover {color:green;}
+	font-family:Sans-serif;
+	color:green;
+	border-style:dotted;
+	border-width:thin;
+	padding:20px;
+	width:50%;
+
+}
+*/
