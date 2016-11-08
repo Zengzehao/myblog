@@ -127,9 +127,9 @@ echo "当前时间是 " . date("Y-m-d h:i:s");
 <table class="table table-bordered" id="tools">
   <tr>
     <td><a href="https://www.baidu.com/" target="_blank">百度一下</a></td>
-    <td><a href="http://fanyi.baidu.com/" target="_blank">百度翻译</a></td>
-    <td><a href="http://mail.qq.com/cgi-bin/frame_html?sid=2rLI3tSSwPjYYFsD&r=922ac72b5e29f27e56ac784bd9d5f1bf" target="_blank">QQ邮箱</td>
-    <td></td>
+      <td><a href="http://fanyi.baidu.com/" target="_blank">百度翻译</a></td>
+    <td><a href="https://mail.qq.com/cgi-bin/loginpage" target="_blank">QQ邮箱</td>
+    <td><a href="http://localhost:8080/gui/web/index.html">uTorrent</td>
     <td></td>
   </tr>
 </table>
